@@ -1,0 +1,9 @@
+1.環境構築
+Windowsのコマンドプロンプトで、ドキュメントルートで下記を実行
+composer require google/cloud-vision
+composer require google/cloud-translate
+
+2.実行方法
+Windowsのコマンドプロンプトで、ドキュメントルートで下記を実行
+set GOOGLE_APPLICATION_CREDENTIALS=xxx.json
+php image_recognition.php
